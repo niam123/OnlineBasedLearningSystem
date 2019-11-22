@@ -1,0 +1,165 @@
+/**
+*Project OBLS
+*Author: Framework Group;
+*Online Based Learning System
+*/
+/*Main design start*/
+body{
+	background-image: url("../img/logintexture.png");
+}
+/*start index page design*/
+.main-menu{
+	font-size: 16px;
+	border-top: 3px solid #1abc9c;
+	margin-bottom: 0px;
+}
+.main-menu i{
+	color: #ecf0f1;
+}
+.dropdown-alerts{
+	width: 310px;
+    min-width: 0;
+}
+.dropdown-messages{
+	width: 310px;
+    min-width: 0;
+}
+.main-menu .dropdown-menu li a{
+    white-space: normal;
+}
+.subject_link a{
+	color: #16a085;
+}
+.qs-panel{
+	padding: 8px;
+}
+.qs-panel-footer{
+	margin: 0;
+	padding: 5px;
+}
+.post-panel{
+	margin-bottom: -14px;
+}
+.post_question{
+	padding-top: 10px;
+}
+/*Border for whole site*/
+.obls_border{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+/*qestion list*/
+.qs_list ul li{
+	padding: 20px 10px 6px;
+}
+.qs_list ul li a{
+	font-weight: bold;
+	color: #3060A8;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.postedby{
+	display: block;
+	padding-top: 10px;
+	font-size: 13px;
+	font-style: italic;
+}
+.footer_area{
+	background: #ddd;
+	height: 50px;
+	display: block;
+	padding-top: 15px;
+}
+.obls_margin{
+	margin-top: 55px;
+}
+.obls_padding{
+	padding-top: 18px;
+}
+/*end index page design*/
+
+/* style for clock */
+.tabBlock
+{
+    background-color: transparent;
+    border:solid 0px #FFA54F;
+    border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+    min-width:200px;
+    width:100%;
+    overflow:hidden;
+    display:block;
+}
+.clock
+{
+    vertical-align:middle;
+    font-family:Orbitron;
+    font-size:40px;
+    font-weight:normal;
+    color:green;
+    padding:0 10px;
+}
+.clocklg 
+{
+    vertical-align:middle; 
+    font-family:Orbitron;
+    font-size:18px;
+    font-weight:normal;
+    color:green;
+}
+/*end clock style*/
+/*Login page design start*/
+.vertical-offset-100{
+	padding-top: 100px;
+}
+.loginhead{
+	padding-bottom: 20px;
+}
+/*login ends*/
+
+/*single post design*/
+#section2{
+	min-height: 480px;
+}
+#postdetails{
+	min-height: 550px;
+	padding-bottom: 30px;
+}
+.post_img{
+	padding: 20px;
+}
+.post_img img{
+	width: 450px;
+	height: 320px;
+	margin: 0 auto;
+}
+/*Comment design*/
+.commentdesign{
+	margin: 20px 0px;
+}
+
+/*css for message showing*/
+.success{
+	color: green;
+	font-size: 16px;
+	padding: 10px 0;
+}
+.error{
+	color:red;
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+/*exam list design*/
+.examlistpad{
+	padding: 30px 15px;
+	border-bottom: 1px solid #ddd;
+}
+.starttest img{
+	width: 300px;
+	height: 60px;
+	border-radius: 10px;
+}
